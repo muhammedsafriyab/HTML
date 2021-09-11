@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	value of a<input type="text" id="first"><br><br>
+	value of b<input type="text" id="second"><br><br>
+	<button onclick="my()">ok</button>
+	values of a:<input type="text" id="1">
+	values of b:<input type="text" id="2">
+	<script>
+		function my(){
+			var a,b,c;
+			a=Number(document.getElementById('first').value);
+			b=Number(document.getElementById('second').value);
+			c=a;
+			a=b;
+			b=c;
+		
+		a=document.getElementById('1').value=a;
+		b=document.getElementById('2').value=b;
+}
+
+
+	</script>
+
+</body>
+</html>

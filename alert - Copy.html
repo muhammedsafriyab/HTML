@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>welcome</h1>
+	<button onclick="my()">clik me
+	</button>
+	<p id="safri"></p>
+<script>
+	function my(){
+		var text;
+		var feedback=prompt("please enter the feedback:","enter the key");
+		if(feedback==null ||feedback==""){
+			text="hello sir";
+		}
+			else{
+				text="hai";
+			}
+			document.getElementById('safri').innerHTML=text;
+		}
+</script>
+</body>
+</html>
